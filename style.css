@@ -186,3 +186,17 @@ footer{
 
     border: 1px solid #eee;
 }
+
+/* funcionalidade com javascript */
+
+section.form{
+    transition: all 300ms;
+}
+
+section.form.hide{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin-top: -70px;
+
+}
